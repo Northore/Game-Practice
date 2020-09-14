@@ -14,8 +14,8 @@
 		88DC45CB250FE08C0042F755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45CA250FE08C0042F755 /* Assets.xcassets */; };
 		88DC45CE250FE08C0042F755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45CC250FE08C0042F755 /* LaunchScreen.storyboard */; };
 		88DC45DD251000750042F755 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45DC251000750042F755 /* README.md */; };
-		88DC45E0251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45DE251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png */; };
-		88DC45E1251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45DF251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png */; };
+		88DC45E8251009620042F755 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45E6251009620042F755 /* Screen2.png */; };
+		88DC45E9251009620042F755 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45E7251009620042F755 /* Screen1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		88DC45CD250FE08C0042F755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88DC45CF250FE08C0042F755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88DC45DC251000750042F755 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		88DC45DE251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png"; path = "../../../../../Downloads/Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png"; sourceTree = "<group>"; };
-		88DC45DF251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png"; path = "../../../../../Downloads/Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png"; sourceTree = "<group>"; };
+		88DC45E6251009620042F755 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screen2.png; path = ../../../../../Downloads/Screen2.png; sourceTree = "<group>"; };
+		88DC45E7251009620042F755 /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screen1.png; path = ../../../../../Downloads/Screen1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		88DC45D9250FFE8E0042F755 /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
-				88DC45DF251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png */,
-				88DC45DE251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png */,
+				88DC45E7251009620042F755 /* Screen1.png */,
+				88DC45E6251009620042F755 /* Screen2.png */,
 			);
 			path = Screenshot;
 			sourceTree = "<group>";
@@ -143,11 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DC45C4250FE08B0042F755 /* art.scnassets in Resources */,
-				88DC45E1251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png 22-49-39-907.png in Resources */,
 				88DC45CE250FE08C0042F755 /* LaunchScreen.storyboard in Resources */,
 				88DC45DD251000750042F755 /* README.md in Resources */,
 				88DC45CB250FE08C0042F755 /* Assets.xcassets in Resources */,
-				88DC45E0251000EC0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png 22-49-39-929.png in Resources */,
+				88DC45E8251009620042F755 /* Screen2.png in Resources */,
+				88DC45E9251009620042F755 /* Screen1.png in Resources */,
 				88DC45C9250FE08B0042F755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

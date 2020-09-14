@@ -16,10 +16,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lp4-iL-yZ3">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </sceneKitView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Очки: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viQ-n6-PBp">
-                                <rect key="frame" x="0.0" y="44" width="414" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Очки: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viQ-n6-PBp">
+                                <rect key="frame" x="0.0" y="44" width="414" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -27,26 +28,21 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="lp4-iL-yZ3" firstAttribute="leading" secondItem="g2p-F4-NfE" secondAttribute="leading" id="9xi-Yw-7gW"/>
-                            <constraint firstItem="viQ-n6-PBp" firstAttribute="leading" secondItem="g2p-F4-NfE" secondAttribute="leading" id="EGD-af-Glz"/>
-                            <constraint firstItem="g2p-F4-NfE" firstAttribute="trailing" secondItem="viQ-n6-PBp" secondAttribute="trailing" id="PBH-aY-Zf9"/>
-                            <constraint firstItem="g2p-F4-NfE" firstAttribute="bottom" secondItem="lp4-iL-yZ3" secondAttribute="bottom" id="Sl9-x3-scE"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lp4-iL-yZ3" secondAttribute="trailing" id="TaV-0b-xUU"/>
-                            <constraint firstItem="viQ-n6-PBp" firstAttribute="top" secondItem="g2p-F4-NfE" secondAttribute="top" id="Tqr-Mu-mSV"/>
-                            <constraint firstItem="g2p-F4-NfE" firstAttribute="trailing" secondItem="lp4-iL-yZ3" secondAttribute="trailing" id="eMb-jp-3Uc"/>
-                            <constraint firstItem="lp4-iL-yZ3" firstAttribute="top" secondItem="g2p-F4-NfE" secondAttribute="top" id="iCU-1G-XVY"/>
-                            <constraint firstItem="g2p-F4-NfE" firstAttribute="bottom" secondItem="lp4-iL-yZ3" secondAttribute="bottom" id="lKW-yi-QUC"/>
+                            <constraint firstAttribute="bottom" secondItem="lp4-iL-yZ3" secondAttribute="bottom" id="2Fy-oT-4hh"/>
+                            <constraint firstItem="lp4-iL-yZ3" firstAttribute="top" secondItem="pt6-go-cZZ" secondAttribute="top" id="5oF-GY-16i"/>
+                            <constraint firstItem="lp4-iL-yZ3" firstAttribute="trailing" secondItem="pt6-go-cZZ" secondAttribute="trailing" id="RlU-tw-KL1"/>
+                            <constraint firstItem="lp4-iL-yZ3" firstAttribute="leading" secondItem="pt6-go-cZZ" secondAttribute="leading" id="cMF-QZ-OEf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="g2p-F4-NfE"/>
                     </view>
                     <connections>
                         <outlet property="scnView" destination="lp4-iL-yZ3" id="wYC-Rd-t31"/>
-                        <outlet property="scoreLabel" destination="viQ-n6-PBp" id="mdt-GT-GS7"/>
+                        <outlet property="scoreLabel" destination="viQ-n6-PBp" id="c2O-Mx-Rxh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.91964285714286" y="137.68115942028987"/>
+            <point key="canvasLocation" x="131.8840579710145" y="137.27678571428569"/>
         </scene>
     </scenes>
 </document>

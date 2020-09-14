@@ -72,7 +72,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scoreLabel.numberOfLines = 0
+        self.scoreLabel.numberOfLines = 0
         
         //remove the ship
         removeShip()
@@ -113,7 +113,7 @@ class GameViewController: UIViewController {
         scnView.allowsCameraControl = true
         
         // show statistics such as fps and timing information
-        scnView.showsStatistics = true
+        scnView.showsStatistics = false
         
         // configure the view
         scnView.backgroundColor = UIColor.black
