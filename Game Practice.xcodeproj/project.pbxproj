@@ -13,6 +13,8 @@
 		88DC45C9250FE08B0042F755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45C7250FE08B0042F755 /* Main.storyboard */; };
 		88DC45CB250FE08C0042F755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45CA250FE08C0042F755 /* Assets.xcassets */; };
 		88DC45CE250FE08C0042F755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45CC250FE08C0042F755 /* LaunchScreen.storyboard */; };
+		88DC45D6250FFE840042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45D5250FFE840042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png */; };
+		88DC45D8250FFE8A0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DC45D7250FFE8A0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		88DC45CA250FE08C0042F755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88DC45CD250FE08C0042F755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88DC45CF250FE08C0042F755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DC45D5250FFE840042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Снимок экрана 2020-09-14 в 22.39.09.png"; path = "../../../../Downloads/Снимок экрана 2020-09-14 в 22.39.09.png"; sourceTree = "<group>"; };
+		88DC45D7250FFE8A0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Снимок экрана 2020-09-14 в 22.39.15.png"; path = "../../../../Downloads/Снимок экрана 2020-09-14 в 22.39.15.png"; sourceTree = "<group>"; };
+		88DC45DA250FFE8E0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-09-14 в 22.39.09.png"; sourceTree = "<group>"; };
+		88DC45DB250FFE8E0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-09-14 в 22.39.15.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		88DC45C0250FE08B0042F755 /* Game Practice */ = {
 			isa = PBXGroup;
 			children = (
+				88DC45D9250FFE8E0042F755 /* Screenshot */,
+				88DC45D5250FFE840042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png */,
+				88DC45D7250FFE8A0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png */,
 				88DC45C1250FE08B0042F755 /* AppDelegate.swift */,
 				88DC45C3250FE08B0042F755 /* art.scnassets */,
 				88DC45C5250FE08B0042F755 /* GameViewController.swift */,
@@ -65,6 +74,15 @@
 				88DC45CF250FE08C0042F755 /* Info.plist */,
 			);
 			path = "Game Practice";
+			sourceTree = "<group>";
+		};
+		88DC45D9250FFE8E0042F755 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				88DC45DA250FFE8E0042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png */,
+				88DC45DB250FFE8E0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +145,10 @@
 			files = (
 				88DC45C4250FE08B0042F755 /* art.scnassets in Resources */,
 				88DC45CE250FE08C0042F755 /* LaunchScreen.storyboard in Resources */,
+				88DC45D8250FFE8A0042F755 /* Снимок экрана 2020-09-14 в 22.39.15.png in Resources */,
 				88DC45CB250FE08C0042F755 /* Assets.xcassets in Resources */,
 				88DC45C9250FE08B0042F755 /* Main.storyboard in Resources */,
+				88DC45D6250FFE840042F755 /* Снимок экрана 2020-09-14 в 22.39.09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
